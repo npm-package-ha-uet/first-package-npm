@@ -21,7 +21,7 @@ var CardComponent = function CardComponent(_ref) {
     src: "https://firebasestorage.googleapis.com/v0/b/blog-programming-d228e.appspot.com/o/gai.jpg?alt=media&token=fd4ac42d-6d0f-4e4b-b76c-e1bffe5b1ec1",
     alt: ""
   })), React.createElement("hr", null), React.createElement("ul", {
-    className: "slide"
+    className: styles.slide
   }, htmlSlide));
 };
 

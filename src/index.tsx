@@ -19,7 +19,7 @@ export const CardComponent = ({ text, source }: Props) => {
         alt="" />
     </div>
     <hr />
-      <ul className="slide">
+      <ul className={styles.slide}>
         {htmlSlide}
       </ul>
   </div>
