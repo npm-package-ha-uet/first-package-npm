@@ -14,19 +14,20 @@
   justify-content: center;
   align-items: center;
 }
-.slide{
+ul.slide{
   list-style-type: none;
   width: 100%;
   overflow-x: auto;
   height: auto;
 }
-.slide li {
+ul.slide li {
   width: 25%;
   margin-right: 2%;
   height: 300px;
+  display: inline;
 }
 
-.slide li img {
+ul.slide li img {
   width: 100%;
   display: block;
   height: 200px;
