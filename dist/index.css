@@ -17,14 +17,16 @@
 ul._1zrfk{
   list-style-type: none;
   width: 100%;
-  overflow-x: auto;
   height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: auto;
 }
 ul._1zrfk li {
   width: 25%;
   margin-right: 2%;
   height: 300px;
-  display: inline;
 }
 
 ul._1zrfk li img {
