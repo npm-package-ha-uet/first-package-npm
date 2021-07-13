@@ -15,12 +15,12 @@ npm install --save npm-react-ts
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'npm-react-ts'
+import CardComponent from 'npm-react-ts'
 import 'npm-react-ts/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <CardComponent />
   }
 }
 ```

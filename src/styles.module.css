@@ -7,3 +7,27 @@
   font-size: 2em;
   text-align: center;
 }
+.img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide{
+  list-style-type: none;
+  width: 100%;
+  overflow-x: auto;
+  height: auto;
+}
+.slide li {
+  width: 25%;
+  margin-right: 2%;
+  height: 300px;
+}
+
+.slide li img {
+  width: 100%;
+  display: block;
+  height: 200px;
+}
